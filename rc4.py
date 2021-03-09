@@ -15,7 +15,7 @@ def key_scheduling_algorithm(key: list, modulus: int, verbose=None):
     return S
 
 
-def pseudo_random_generator(S: int, modulus: int, length: int, verbose=None):
+def pseudo_random_generator(S: list, modulus: int, length: int, verbose=None):
     i = 0
     j = 0
     stream = []
